@@ -3,13 +3,16 @@ import MovieItem from './MovieItem'
 import PropTypes from 'prop-types'
 
 
-function MovieList({movie}) {
+function MovieList({movie, handleDelete}) {
     if (!movie || movie.length === 0) {
         return <p>No movies logged yet.</p>
     }
   return (<div className = 'feedback-list'>
     {movie.map((item)=>(
-        <MovieItem key = {item.id} item = {item}/>
+        <MovieItem
+        key = {item.id} 
+        item = {item}
+        handleDelete={handleDelete}/>
     ))}
   </div>
   )

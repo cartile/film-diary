@@ -20,7 +20,7 @@ function Header(props) {
 }
 
 Header.defaultProps = {
-    text: "Film Diary UI",
+    text: "Film Diary",
     bgColor: "rgba(0,0,0,0.3)",
     textColor: "#ff6a95",
 }

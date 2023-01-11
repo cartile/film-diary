@@ -4,11 +4,11 @@ import PropTypes from 'prop-types'
 import { FaTimes } from 'react-icons/fa'
 
 
-function MovieItem({item}) {
+function MovieItem({item, handleDelete}) {
   return (
     <Card>
         <div className="num-display">{item.rating}</div>
-        <button className="close">
+        <button onClick={() => handleDelete(item.id)} className="close">
           <FaTimes color='grey' size = {13} />
         </button>
         <div className="text-display">{item.review}</div>
