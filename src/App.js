@@ -3,6 +3,7 @@ import MovieList from './components/MovieList'
 import MovieData from './data/MovieData'
 import { useState } from 'react'
 import RatingStats from './components/RatingStats'
+import MovieForm from './components/MovieForm'
 
 function App() {
     const [movie, setMovie] = useState(MovieData)
@@ -16,6 +17,7 @@ function App() {
         <Header />
         <div className = 'container'>
             <p>Track your movie viewing history.</p>
+            <MovieForm />
             <RatingStats movie = {movie}/>
             <MovieList movie = {movie} handleDelete={deleteMovie}/>
         </div>
