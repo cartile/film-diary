@@ -7,7 +7,9 @@ import MovieForm from './components/MovieForm'
 
 function App() {
     const [movie, setMovie] = useState(MovieData)
-
+    const addMovie = (newMovie) => {
+        console.log(newMovie)
+    }
     const deleteMovie = (id) => {
         if(window.confirm('Are you sure you want to delete this entry?'))
         setMovie(movie.filter((item)=> item.id !== id))
@@ -17,7 +19,7 @@ function App() {
         <Header />
         <div className = 'container'>
             <p>Track your movie viewing history.</p>
-            <MovieForm />
+            <MovieForm handleAdd={addMovie}/>
             <RatingStats movie = {movie}/>
             <MovieList movie = {movie} handleDelete={deleteMovie}/>
         </div>

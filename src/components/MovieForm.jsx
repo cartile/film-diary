@@ -4,8 +4,8 @@ import {useState} from 'react'
 import Button from './shared/Button'
 import RatingSelect from './RatingSelect'
 
-function MovieForm() {
-    const [text, setText] = useState("")
+function MovieForm({handleAdd}) {
+    const [text, setText] = useState('')
     const [rating, setRating] = useState(10)
     const [btnDisabled, setBtnDisabled] = useState(true)
     const [message, setMessage] = useState('')
@@ -14,7 +14,7 @@ function MovieForm() {
         if (text === '') {
             setBtnDisabled(true)
             setMessage(null)
-        } else if(text !== '' && text.trim().length <= 8) {
+        } else if(text !== '' && text.trim().length <= 10) {
             setBtnDisabled(true)
             setMessage('Reviews must be at least 10 characters')
         } else {
@@ -23,9 +23,26 @@ function MovieForm() {
         }
         setText(e.target.value)
     }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        if (text.trim().length > 10) {
+            const newMovie = {
+                text,
+                rating,
+            }
+            handleAdd(newMovie)
+        //handleAdd(newMovie)
+        //setBtnDisabled(true)
+        //setRating(10)
+            setText('')
+    }
+        
+        
+    }
   return (
     <Card> 
-        <form>
+        <form onSubmit={handleSubmit}>
             <h2>How did you find your latest movie?</h2>
             <RatingSelect select = {(rating) => setRating(rating)}/>
             <div className="input-group">
