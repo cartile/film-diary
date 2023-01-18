@@ -1,6 +1,6 @@
 # Film Diary
 
-Welcome to Film Diary, a tool for keeping track of your movie-watching experiences. This application is designed to function like a letterbox diary, allowing you to add entries that include the movie's name, your rating, and a short review.
+Welcome to Film Diary, a tool for keeping track of your movie-watching experiences. This application is designed to allow you to track your movie viewing history.
 
 A little side project I've been working on after being obsessed with films for the past 2 years. Inspired by Letterboxd. Uses JS/React/HTML
 
