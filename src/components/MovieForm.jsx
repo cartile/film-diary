@@ -14,7 +14,7 @@ function MovieForm({handleAdd}) {
         if (text === '') {
             setBtnDisabled(true)
             setMessage(null)
-        } else if(text !== '' && text.trim().length <= 10) {
+        } else if(text.trim().length <= 10) {
             setBtnDisabled(true)
             setMessage('Reviews must be at least 10 characters')
         } else {
