@@ -2,13 +2,13 @@
 
 Welcome to Film Diary, a tool for keeping track of your movie-watching experiences. This application is designed to allow you to track your movie viewing history.
 
-A little side project I've been working on after being obsessed with films for the past 2 years. Inspired by Letterboxd. Uses JS/React/HTML
+This is a little side project that is a product of my love for movies. Inspired by Letterboxd. Uses JS/React/HTML.
 
-You can see all the films I've watched here: https://letterboxd.com/cartile/films/
+(In case youre interested in the films I enjoyed: https://letterboxd.com/cartile/films/)
 ## Features
-- Add new entries with movie name, rating, and a short review
-- All entries are displayed with the ability to edit and delete them
-- Average rating + total # of entries
+- Add new entries with movie name, rating, and a short review.
+- All entries are displayed with the ability to edit and delete them.
+- Average rating + total # of entries.
 
 ### Homescreen with movie form:
 <img width="1434" alt="Screenshot at Jan 18 00-16-02" src="https://user-images.githubusercontent.com/113253660/213091253-2a321ddb-e3b5-4aa7-b953-64c46b944a3b.png">
