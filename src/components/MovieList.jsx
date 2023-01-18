@@ -48,6 +48,7 @@ MovieList.propTypes = {
       id: PropTypes.number.isRequired,
       review: PropTypes.string.isRequired,
       rating: PropTypes.number.isRequired,
+      name: PropTypes.string.isRequired,
     })
   )
 
