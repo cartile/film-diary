@@ -227,4 +227,10 @@ input:focus {
   .input-group input {
     width: 80%;
   }
+
+  .about input-group{ 
+  display:flex; 
+  margin-top: 50px;
+  } 
+
 }

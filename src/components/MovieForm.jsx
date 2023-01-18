@@ -46,6 +46,10 @@ function MovieForm({handleAdd}) {
             <h2>How did you find your latest movie?</h2>
             <RatingSelect select = {(rating) => setRating(rating)}/>
             <div className="input-group">
+                <input onChange={handleTextChange} type="text" placeholder="Movie Name"/>
+
+            </div>  
+            <div className="input-group">
                 <input onChange={handleTextChange} type="text" placeholder="Write a review"/>
                 <Button type="submit" version="primary"
                  isDisabled = {btnDisabled}>Log</Button>

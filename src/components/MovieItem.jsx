@@ -11,6 +11,7 @@ function MovieItem({item, handleDelete}) {
         <button onClick={() => handleDelete(item.id)} className="close">
           <FaTimes color='grey' size = {13} />
         </button>
+        <b className="text-display" class='bolded'>{item.name}</b>
         <div className="text-display">{item.review}</div>
     </Card>
   )
