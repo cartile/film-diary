@@ -8,7 +8,7 @@ This is a little side project that is a product of my love for movies. Inspired 
 ## Features
 - Add new entries with movie name, rating, and a short review.
 - All entries are displayed with the ability to edit and delete them.
-- Average rating + total # of entries.
+- Average rating and total # of entries.
 
 ### Homescreen with movie form:
 <img width="1434" alt="Screenshot at Jan 18 00-16-02" src="https://user-images.githubusercontent.com/113253660/213091253-2a321ddb-e3b5-4aa7-b953-64c46b944a3b.png">
