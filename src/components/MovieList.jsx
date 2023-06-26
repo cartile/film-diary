@@ -45,7 +45,7 @@ function MovieList({movie, handleDelete}) {
 MovieList.propTypes = {
   movie: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.number.isRequired,
+      id: PropTypes.string.isRequired,
       review: PropTypes.string.isRequired,
       rating: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,

@@ -4,11 +4,11 @@ import MovieData from './data/MovieData'
 import { useState } from 'react'
 import RatingStats from './components/RatingStats'
 import MovieForm from './components/MovieForm'
-import {v4 as uuidv4} from 'uuid'
 
 function App() {
     const [movie, setMovie] = useState(MovieData)
     const addMovie = (newMovie) => {
+        console.log(newMovie)
         setMovie([newMovie, ...movie])
     }
     const deleteMovie = (id) => {
