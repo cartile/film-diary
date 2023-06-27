@@ -212,6 +212,19 @@ input:focus {
   margin: 10px 0;
 }
 
+.review-form {
+  display: flex;
+  flex-direction: column;
+}
+.button-container {
+  display: flex;
+  justify-self: flex-end;
+}
+.form-footer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
 @media (max-width: 600px) {
   .rating li {
     margin: 10px 3px;
@@ -233,22 +246,4 @@ input:focus {
   display:flex; 
   margin-top: 50px;
   } 
-
-  .review-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .form-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-  }
-  
-  .button-container {
-    margin-left: auto;
-  }
-  
 }

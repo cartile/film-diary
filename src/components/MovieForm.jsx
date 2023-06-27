@@ -76,7 +76,6 @@ function MovieForm({ handleAdd }) {
                     placeholder="Write a review"
                     value={reviewText}
                 />
-                
             </div>
             <div className="form-footer">
                 {message && <div className="message">{message}</div>}
