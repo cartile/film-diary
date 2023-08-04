@@ -37,7 +37,7 @@ The new Movie Form Interface:
 To run Film Diary locally, follow these steps:
 
 1. Clone this repository.
-2. Ensure the following necessary dependencies are installed: `framer-motion, uuid, react-icons`, as well as Node.js and npm.
+2. Ensure the following necessary dependencies are installed: `npm install`.
 3. Start the development server with `npm start`.
 4. Open your web browser and visit `http://localhost:3000`.
 
