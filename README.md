@@ -2,7 +2,7 @@
 
 Welcome to Film Diary, a tool for keeping track of your movie viewing history. 
 
-This is a little side project that is a product of my love for movies. Inspired by Letterboxd. Uses JS/React/HTML.
+![2023-08-16_01-33-54-min](https://github.com/cartile/film-diary/assets/113253660/b0202f4b-b459-42a2-a205-966e944a4fc3)
 
 (If you want to see the films I enjoyed recently, you can check them out on [Letterboxd](https://letterboxd.com/cartile/films/diary/).)
 
@@ -22,11 +22,6 @@ The new Movie Form Interface:
 - All entries are displayed with the ability to edit and delete them.
 - Average rating and total # of entries.
 
-### Homescreen with movie form (Old):
-<img width="1434" alt="Screenshot at Jan 18 00-16-02" src="https://user-images.githubusercontent.com/113253660/213091253-2a321ddb-e3b5-4aa7-b953-64c46b944a3b.png">
-
-### A list of entries:
-<img width="793" alt="Screenshot at Jan 18 00-16-14" src="https://user-images.githubusercontent.com/113253660/213091265-985e594b-4b5e-490a-8f1b-af618d29e8ad.png">
 
 ## Technologies Used
 - JavaScript
