@@ -13,9 +13,6 @@ Welcome to Film Diary, a tool for keeping track of your movie viewing history.
 - Movie Form Interface Redesign: To make the logging experience more intuitive.
 - Fixed the bug where the movie name/review wouldn't display correctly on the cards.
 
-The new Movie Form Interface:
-<img width="1436" alt="image" src="https://github.com/cartile/film-diary/assets/113253660/fd46f6af-4e47-42ff-83f5-c23bbaac6520">
-
 
 ## Features
 - Add new entries with movie name, rating, and a short review.
