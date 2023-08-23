@@ -4,15 +4,7 @@ Welcome to Film Diary, a tool for keeping track of your movie viewing history.
 
 ![2023-08-16_01-33-54-min](https://github.com/cartile/film-diary/assets/113253660/b0202f4b-b459-42a2-a205-966e944a4fc3)
 
-(If you want to see the films I enjoyed recently, you can check them out on [Letterboxd](https://letterboxd.com/cartile/films/diary/).)
-
-# June 26, 2023 Update:
-
-## Changelog:
-- Deployed Film Diary on Vercel.
-- Movie Form Interface Redesign: To make the logging experience more intuitive.
-- Fixed the bug where the movie name/review wouldn't display correctly on the cards.
-
+(If you would like to see the films I enjoyed recently, you can check them out on [Letterboxd](https://letterboxd.com/cartile/films/diary/).)
 
 ## Features
 - Add new entries with movie name, rating, and a short review.
